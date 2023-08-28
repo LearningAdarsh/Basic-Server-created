@@ -2,9 +2,9 @@
   "name": "basicserver",
   "version": "1.0.0",
   "description": "Creating basic server for shani project",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon -e env,mjs,json,js"
   },
   "author": "Adarsh maurya",
   "license": "ISC",
